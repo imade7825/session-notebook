@@ -1,0 +1,25 @@
+Helpful Git Commands:
+
+. Git init: initialize a new git repository
+. Git clone <url>: clone a repository from a remote source
+. Git status: show the current state of the working directory and staging area
+. Git add <file> or git add . : stage specific files or all changes for commit
+. Git commit -m "message": commit staged changes with a message 
+. Git push origin <brach>: push local commits to a remote branch
+. Git pull: fetch and merge changes from the remote repository
+. Git branch: List all branches; use -a to include remotes
+. Git checkout <branch> or git switch <branch>: switch to a branch
+. Git checkout -b <branch>: create and switch to a new branch
+. Git merge <branch>: merge a branch into the current branch 
+. Git stash: temporarily save uncommitted changes
+. Git stash pop: apply and remove stashed changes
+. Git log --oneline: view a compact commit history
+. Git diff: show changes between working directory and last commit
+. Git reset <file>: onstage a file but keep changes
+. Git reset --hard <commit>: Reset to specific commit, discarding changes
+. Git remote -v: List remote repository connections 
+. Git fetch: Download objects and refs from remote without merging
+. Git rebase <branch>: Reapply commits on top of another branch (use cautiously)
+
+Pro Tip: Use git config --global alias.<shortcut> <command> to create shortcuts
+(e.g., git config --global alias.s status for git s). 
